@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="simple-provider-movie" />
+        <module name="simple-provider-movie (1)" />
+        <module name="simple-provider-movie-config-properties" />
+        <module name="simple-provider-movie-ribbon" />
+        <module name="springcloud-ereuka" />
+        <module name="springcloud-user" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="simple-provider-movie" options="-parameters" />
+      <module name="simple-provider-movie (1)" options="-parameters" />
+      <module name="simple-provider-movie-config-properties" options="-parameters" />
+      <module name="simple-provider-movie-ribbon" options="-parameters" />
+      <module name="springcloud-ereuka" options="-parameters" />
+      <module name="springcloud-user" options="-parameters" />
+    </option>
+  </component>
+</project>
